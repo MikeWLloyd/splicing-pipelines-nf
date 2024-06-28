@@ -1,8 +1,8 @@
-# continuumio/miniconda3:4.12.0
-FROM continuumio/miniconda3@sha256:58b1c7df8d69655ffec017ede784a075e3c2e9feff0fc50ef65300fc75aa45ae
+# continuumio/miniconda3:24.5.0-0
+FROM continuumio/miniconda3:24.5.0-0
 
-LABEL authors="phil@lifebit.ai laura.urbanski@jax.org" \
-	description="Docker image containing rMATS v4.1.1"
+LABEL authors="phil@lifebit.ai laura.urbanski@jax.org mike.lloyd@jax.org" \
+	description="Docker image containing rMATS v4.3.0"
 
 RUN conda install -c conda-forge mamba -y
 

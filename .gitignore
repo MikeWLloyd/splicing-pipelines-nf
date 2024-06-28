@@ -12,3 +12,10 @@ test_single_end
 human_test
 *cred*
 *credentials*
+*results*/
+reads.csv
+rmats_pairs.txt
+run_splicing_pipeline.sh
+short.config
+*report.html
+*timeline.html

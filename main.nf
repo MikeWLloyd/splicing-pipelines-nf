@@ -54,7 +54,7 @@ def helpMessage() {
     Main arguments:
       --gtf                         Path to reference GTF file (path)
                                     (default: no gtf specified)
-      --assembly_name               Genome assembly name (available = 'GRCh38' or 'GRCm38', string)
+      --assembly_name               Genome assembly name (available = 'GRCh38', 'GRCm38', or 'GRCm39', string)
                                     (default: false)
       --star_index                  Path to STAR index (path)
                                     Star indices must be generated prior to run (with correct STAR version)

@@ -21,3 +21,5 @@ RUN wget http://ccb.jhu.edu/software/stringtie/dl/stringtie-2.1.7.Linux_x86_64.t
     rm gffcompare.tar.gz && mv gffcompare/gffcompare gffcompare/trmap /usr/local/bin/
 # Install gawk to fix https://github.com/TheJacksonLaboratory/splicing-pipelines-nf/issues/120
 RUN apt-get install -y gawk
+
+RUN pip install packaging

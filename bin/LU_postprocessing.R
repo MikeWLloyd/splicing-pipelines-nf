@@ -28,7 +28,12 @@ if(genome_version == "GRCm38"){
   library(BSgenome.Mmusculus.UCSC.mm10)
   genome <- BSgenome.Mmusculus.UCSC.mm10
 }
-if(!(genome_version %in% c("GRCh38",  "GRCm38"))){
+if(genome_version == "GRCm39"){
+  print("Loading mouse genome, GRCm39")
+  library(BSgenome.Mmusculus.UCSC.mm39)
+  genome <- BSgenome.Mmusculus.UCSC.mm39
+}
+if(!(genome_version %in% c("GRCh38",  "GRCm38", "GRCm39"))){
   print("ERROR! Need to install new genome library. Check BSgenome library")
 }
 
